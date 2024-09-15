@@ -49,12 +49,40 @@ https://github.com/user-attachments/assets/92f26ec2-4810-4a62-8b0f-bf9166327479
 
 ## Tap Tempo
 
-A BPM can be set by using the Tap Tempo on the APC. It averages the last four button presses into a BPM. The 'Tempo' can be started, stopped and reset with the nudge+, nudge- and shift buttons respectively. When the 'Tempo' is started, bangs are sent at every bar and quarter bar. These bangs then control various effects on various layers so that the visuals pulse to a set tempo. For example, on layer 1, when the Spin or Bounce toggles are on, the Sphere will 'Spin' and 'Bounce' at each bar (the tempo must be engaged). 
+A BPM can be set by using the Tap Tempo on the APC. It averages the last four button presses into a BPM. The 'Tempo' can be started, stopped and reset with the nudge+, nudge- and shift buttons respectively. When the 'Tempo' is started, bangs are sent at every bar and quarter bar. These bangs then control various effects on various layers so that the visuals pulse to a set tempo. For example, on layer 1, when the Spin or Bounce toggles are on, the Sphere will 'Spin' and 'Bounce' at each bar (the tempo must be engaged).
+Tempo currently controls tracks
+* 1 - Sphere (bounce and spin)
+* 
 
 ## DSP
 
 Digital Signal Processing (DSP) can be enabled by toggling on using the 'REC' button. When DSP is ON, the audio signal coming in to Pure Data is converted into an envelope to control effects and parameters of various layers. Typically the DSP controls for individual effects can be controlled by toggling on / off. All of the toggles that are purple in the GUI control DSP related effects. 
+DSP currently controls tracks
+* 1 - Sphere (size, scale, spin)
+* 3 - Webcam (meta-image and cube)
+* 7 - Image (rlp, sap, spin, size)
+* 8 - (audio to image)
 
+
+#### Track 1 - Sphere
+
+#### Track 2 - Particles
+
+#### Track 3 - Webcam
+
+#### Track 4 - Ripple
+
+#### Track 5 - Square Particles
+
+#### Track 6 - Wave
+
+#### Track 7 - Image
+
+In the Images folder are four images (img1.jpg, img2.jpg, img3.jpg, img4.jpg). You can replace the images in this folder to load in your own images into ESPER. Just be sure that the file names stay the same and you use a .jpg extension. 
+
+#### Track 8 - Audio to Image
+
+Using DSP, the incoming audio signal is converted into a pixelated images
 
 
 
