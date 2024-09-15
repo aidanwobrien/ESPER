@@ -56,7 +56,7 @@ Tempo currently controls tracks
 
 ## DSP
 
-Digital Signal Processing (DSP) can be enabled by toggling on using the 'REC' button. When DSP is ON, the audio signal coming in to Pure Data is converted into an envelope to control effects and parameters of various layers. Typically the DSP controls for individual effects can be controlled by toggling on / off. All of the toggles that are purple in the GUI control DSP related effects. 
+Digital Signal Processing (DSP) can be enabled by toggling on using the 'REC' button. When DSP is ON, the audio signal coming in to Pure Data is converted into an envelope to control effects and parameters of various layers. Typically the DSP controls for individual effects on a layer have a dedicated toggle. All of the toggles that are purple in the GUI control are DSP related effects. 
 DSP currently controls tracks
 * 1 - Sphere (size, scale, spin)
 * 3 - Webcam (meta-image and cube)
