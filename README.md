@@ -43,6 +43,11 @@ You can tweak performance for your machine by adjusting the frame rate and other
 
 Not all APC40 buttons are mapped to functions yet...!
 
+Here is a screenshot of the GUI and GEM Window (where track 1 and track 7 are enabled)
+
+<img width="1397" alt="Screen Shot 2024-09-14 at 10 46 44 PM" src="https://github.com/user-attachments/assets/6aceea89-3964-4c26-bc81-f9908af1450b">
+
+
 
 
 
