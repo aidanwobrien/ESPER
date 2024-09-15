@@ -43,9 +43,20 @@ You can tweak performance for your machine by adjusting the frame rate and other
 
 Not all APC40 buttons are mapped to functions yet...!
 
-Here is a screenshot of the GUI and GEM Window (where track 1 and track 7 are enabled)
+Here is a screencap of the GUI and GEM Window (where track 1 and track 7 are enabled)
 
-<img width="1397" alt="Screen Shot 2024-09-14 at 10 46 44 PM" src="https://github.com/user-attachments/assets/6aceea89-3964-4c26-bc81-f9908af1450b">
+https://github.com/user-attachments/assets/92f26ec2-4810-4a62-8b0f-bf9166327479
+
+## TAP TEMPO
+
+A BPM can be set by using the Tap Tempo on the APC. It averages the last four button presses into a BPM. The 'Tempo' can be started, stopped and reset with the nudge+, nudge- and shift buttons respectively. When the 'Tempo' is started, bangs are sent at every bar and quarter bar. These bangs then control various effects on various layers so that the visuals pulse to a set tempo. For example, on layer 1, when the Spin or Bounce toggles are on, the Sphere will 'Spin' and 'Bounce' at each bar (the tempo must be engaged). 
+
+## DSP
+
+Digital Signal Processing (DSP) can be enabled by toggling on using the 'REC' button. When DSP is ON, the audio signal coming in to Pure Data is converted into an envelope to control effects and parameters of various layers. Typically the DSP controls for individual effects can be controlled by toggling on / off. All of the toggles that are purple in the GUI control DSP related effects. 
+
+
+
 
 
 
