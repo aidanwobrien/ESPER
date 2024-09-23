@@ -101,7 +101,9 @@ In the Images folder are four images (img1.jpg, img2.jpg, img3.jpg, img4.jpg). Y
 
 Using DSP, the incoming audio signal is converted into a pixelated images
 
+## Trailer / Example
 
+https://youtu.be/dnWvNLu04hQ
 
 
 
