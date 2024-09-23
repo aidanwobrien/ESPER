@@ -67,6 +67,7 @@ DSP currently controls tracks
 * 7 - Image (rlp, sap, spin, size)
 * 8 - (audio to image)
 
+## Layers
 
 #### Track 1 - Sphere
 
