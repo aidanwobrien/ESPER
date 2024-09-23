@@ -39,7 +39,7 @@ The 'Track Select' buttons on the APC allows you to toggle through the effects k
 
 Consult this diagram for what all of the knobs and buttons do:
 
-![esper-apc40-map](https://github.com/user-attachments/assets/fe30e69b-0f65-4b42-beca-5445d2a40417)
+![esper-apc40-map](https://github.com/user-attachments/assets/894711aa-2529-4956-951f-aa5d936dcebe)
 
 You can tweak performance for your machine by adjusting the frame rate, block size and other parameters in the gem-window.pd file. You can monitor CPU Usage from GUI.
 
