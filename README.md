@@ -39,6 +39,8 @@ The 'Track Select' buttons on the APC allows you to toggle through the effects k
 
 Consult this diagram for what all of the knobs and buttons do:
 
+![esper-apc40-map](https://github.com/user-attachments/assets/829a1f49-f465-4455-87b1-76165136a071)
+
 You can tweak performance for your machine by adjusting the frame rate, block size and other parameters in the gem-window.pd file. You can monitor CPU Usage from GUI.
 
 Not all APC40 buttons are mapped to functions yet...!
@@ -52,7 +54,9 @@ https://github.com/user-attachments/assets/92f26ec2-4810-4a62-8b0f-bf9166327479
 A BPM can be set by using the Tap Tempo on the APC. It averages the last four button presses into a BPM. The 'Tempo' can be started, stopped and reset with the nudge+, nudge- and shift buttons respectively. When the 'Tempo' is started, bangs are sent at every bar and quarter bar. These bangs then control various effects on various layers so that the visuals pulse to a set tempo. For example, on layer 1, when the Spin or Bounce toggles are on, the Sphere will 'Spin' and 'Bounce' at each bar (the tempo must be engaged).
 Tempo currently controls tracks
 * 1 - Sphere (bounce and spin)
-* 
+* 4 - Grid (flip and spin)
+* 6 - Wave (add noise)
+* 7 - Image (spin and rotate)
 
 ## DSP
 
@@ -66,15 +70,27 @@ DSP currently controls tracks
 
 #### Track 1 - Sphere
 
+Particle layer with unlimited vertices.
+
 #### Track 2 - Particles
+
+Particle layer with limited vertices.
 
 #### Track 3 - Webcam
 
+Webcam layer. This layer takes the most CPU.
+
 #### Track 4 - Ripple
+
+A "grid" which can be "rippled"
 
 #### Track 5 - Square Particles
 
+Simple particle layer. Squares only, no rotation or any other bells and whistles.
+
 #### Track 6 - Wave
+
+Creates a newWave object. Pulse it with "Noise" (pad 6-1, 6-2, 6-3, and 6-4) or a "Wave" (6-5)
 
 #### Track 7 - Image
 
