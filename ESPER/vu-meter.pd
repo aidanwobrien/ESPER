@@ -1,0 +1,15 @@
+#N canvas 0 28 1440 872 12;
+#X obj 90 26 adc~;
+#X obj 90 112 env~;
+#X obj 90 135 - 100;
+#X floatatom 90 158 5 0 0 0 - - - 0;
+#X obj 90 90 *~;
+#X obj 108 69 tgl 19 0 empty dsp empty 0 -10 0 12 #e3c6ff #000000 #000000 0 1;
+#X obj 90 184 outlet;
+#X connect 0 0 4 0;
+#X connect 0 1 4 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 4 0 1 0;
+#X connect 5 0 4 1;

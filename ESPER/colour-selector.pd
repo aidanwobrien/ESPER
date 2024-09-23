@@ -1,4 +1,4 @@
-#N canvas 0 0 1440 900 12;
+#N canvas 0 0 1440 872 12;
 #X obj 698 65 / 127;
 #X obj 101 312 expr $f1<1;
 #X obj 223 381 sel 1;
