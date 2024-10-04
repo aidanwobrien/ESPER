@@ -49,9 +49,13 @@ You can tweak performance for your machine by adjusting the frame rate, block si
 
 Not all APC40 buttons are mapped to functions yet...!
 
-Here is a screencap of the GUI and GEM Window (where track 1 and track 7 are enabled)
+Here is a screencap of the APC GUI
 
-https://github.com/user-attachments/assets/92f26ec2-4810-4a62-8b0f-bf9166327479
+<img width="1440" alt="apc-gui" src="https://github.com/user-attachments/assets/633465d5-99b5-4770-b525-dcefb93496d9">
+
+And the standalone GUI and GEM Window
+
+<img width="1440" alt="standalone-gui" src="https://github.com/user-attachments/assets/145d3c7d-3d42-4f62-b90d-5cfdf5a09d5f">
 
 ## Tap Tempo
 
