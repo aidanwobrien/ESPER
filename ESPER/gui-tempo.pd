@@ -1,4 +1,4 @@
-#N canvas 0 28 1440 900 12;
+#N canvas 0 28 1440 872 12;
 #X msg 40 238 start;
 #X msg 94 237 stop;
 #X msg 141 238 reset;
@@ -58,15 +58,15 @@
 #X obj 7 44 sel 100;
 #X obj 199 44 sel 101;
 #X obj 388 49 sel 98;
-#X obj 447 394 outlet;
 #X obj 343 429 tgl 19 0 bar-tgl empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 271 429 tgl 19 0 beat-tgl empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 203 430 tgl 19 0 sub-tgl empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X floatatom 436 363 5 0 0 0 - - bpm-mon 0;
 #X connect 0 0 23 0;
 #X connect 1 0 23 0;
 #X connect 2 0 23 0;
-#X connect 3 0 59 0;
 #X connect 3 0 23 1;
+#X connect 3 0 62 0;
 #X connect 4 0 11 0;
 #X connect 5 0 12 0;
 #X connect 6 0 13 0;
@@ -74,9 +74,9 @@
 #X connect 8 0 23 2;
 #X connect 9 0 23 3;
 #X connect 10 0 23 4;
-#X connect 12 0 62 0;
-#X connect 13 0 61 0;
-#X connect 14 0 60 0;
+#X connect 12 0 61 0;
+#X connect 13 0 60 0;
+#X connect 14 0 59 0;
 #X connect 23 0 4 0;
 #X connect 23 1 5 0;
 #X connect 23 2 6 0;

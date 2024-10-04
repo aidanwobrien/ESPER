@@ -1,4 +1,4 @@
-# ESPER v1.0
+# ESPER v1.5
 
 ESPER is a visual synthesizer patch built for Pure Data, GEM and the Akai APC40.
 
@@ -27,9 +27,13 @@ Plug in and turn on your Akai APC40.
 
 Launch Pure Data and make sure it is recieving messages from the APC40 (see Midi Settings)
 
-Launch the gui.pd file. This shows some helpful info about what tracks and functions are toggled on, so it is helpful to monitor during use. Usually I will have this screen up during a performance, and the GEM window open on a seperate monitor.
+Make sure all your APC Track Activators are set to 'Off'. 
 
-Press 'Play' on your APC. This will start the GEM Window.
+Launch the apc-gui.pd file. This shows some helpful info about what tracks and functions are toggled on, so it is helpful to monitor during use. Usually I will have this screen up during a performance, and the GEM window open on a seperate monitor.
+
+v1.5 also includes a stand alone gui that provides a different layout meant for performanced without the APC40. This is the standalone-gui.pd file.
+
+Press 'Play' on your APC or in the GUI. This will start the GEM Window.
 
 You will see the GEM window pop up with all 8 tracks enabled. I like to go through and toggle all tracks off so as to start with a blank canvas.
 
