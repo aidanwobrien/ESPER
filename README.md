@@ -112,6 +112,7 @@ Using DSP, the incoming audio signal is converted into a pixelated images
 ## Trailer / Examples
 
 https://youtu.be/dnWvNLu04hQ
+https://youtu.be/nn5tZCgdM9w
 
 <img width="1440" alt="Screen Shot 2024-10-04 at 1 27 00 PM" src="https://github.com/user-attachments/assets/a0474c5e-32dc-4532-b92e-6935b753a4b7">
 <img width="1440" alt="Screen Shot 2024-10-04 at 1 26 17 PM" src="https://github.com/user-attachments/assets/492dbe7d-6472-4f9c-9ec3-b957d5b50f01">
