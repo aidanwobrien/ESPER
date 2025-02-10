@@ -1,4 +1,4 @@
-# ESPER v1.5
+# ESPER v2.0
 
 ESPER is a visual synthesizer patch built for Pure Data, GEM and the Akai APC40.
 
@@ -95,7 +95,7 @@ A "grid" which can be "rippled"
 
 #### Track 5 - Square Particles
 
-Simple particle layer. Squares only, no rotation or any other bells and whistles.
+Actually Track 9 in the code. A rotating line of squares which can be bent. An adaptation of this PD live coding video - https://www.youtube.com/watch?v=kua7TZtroY4&ab_channel=SungminPark
 
 #### Track 6 - Wave
 
@@ -108,6 +108,14 @@ In the Images folder are four images (img1.jpg, img2.jpg, img3.jpg, img4.jpg). Y
 #### Track 8 - Audio to Image
 
 Using DSP, the incoming audio signal is converted into a pixelated images
+
+## v2 updates include:
+- track 5 has been given an overhaul to be a more interesting 'spring' of rotating squares
+- The standalone GUI has been given a facelift and is less busy / more readable
+- A new image is loaded in the "Images" directory for Track 7 to use.
+- Track 1 is given an extra DSP control for 'Spread'
+- Track 4 is given an extra slider to control the ripple intensity 'Amount'
+- colour changes are now synced to the tempo (if supplied)
 
 ## Trailer / Examples
 
