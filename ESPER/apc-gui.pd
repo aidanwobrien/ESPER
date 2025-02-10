@@ -1,4 +1,4 @@
-#N canvas 0 28 1440 900 12;
+#N canvas 1 25 655 847 12;
 #X obj 5 4 cnv 19 1420 880 empty empty empty 20 12 0 12 #000000 #404040 0;
 #X obj 9 10 cnv 19 705 870 empty empty empty 20 12 0 12 #7c7c7c #404040 0;
 #X obj 717 10 cnv 19 705 870 empty empty empty 20 12 0 12 #7c7c7c #404040 0;
@@ -27,7 +27,7 @@
 #X obj 36 336 tgl 19 0 1-3 1-3 spin 0 -5 0 8 #e3c6ff #000000 #000000 0 1;
 #X obj 204 406 tgl 19 0 3-5 3-5 empty 0 -10 0 8 #e3c6ff #000000 #000000 0 1;
 #X obj 204 374 tgl 19 0 3-4 3-4 empty 0 -10 0 8 #e3c6ff #000000 #000000 0 1;
-#X obj 576 375 tgl 19 0 7-5 7-5 empty 0 -10 0 8 #e3c6ff #000000 #000000 0 1;
+#X obj 574 383 tgl 19 0 7-5 7-5 size 0 -10 0 8 #e3c6ff #000000 #000000 0 1;
 #X obj 666 377 tgl 19 0 8-4 8-4 sap 0 -5 0 8 #e3c6ff #000000 #000000 0 1;
 #X obj 666 346 tgl 19 0 8-3 8-3 rlp 0 -5 0 8 #e3c6ff #000000 #000000 0 1;
 #X obj 666 411 tgl 19 0 8-5 8-5 spin 0 -5 0 8 #e3c6ff #000000 #000000 0 1;
@@ -60,7 +60,6 @@
 #X obj 105 853 track2;
 #X obj 190 852 track3;
 #X obj 282 852 track4;
-#X obj 380 853 track5;
 #X obj 469 854 track6;
 #X obj 560 854 track7;
 #X obj 649 852 track8;
@@ -80,7 +79,7 @@
 #X obj 1088 480 cnv 19 305 85 empty empty empty 20 12 0 12 #ffffff #404040 0;
 #X obj 1085 637 cnv 19 310 90 empty empty empty 20 12 0 12 #000000 #404040 0;
 #X obj 1087 639 cnv 19 305 85 empty empty empty 20 12 0 12 #ffffff #404040 0;
-#X obj 755 178 hsl 60 15 0 127 0 0 16-1 16-1 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
+#X obj 755 178 hsl 60 15 0 127 0 0 1slide 1slide empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 829 179 hsl 60 15 0 127 0 0 17-1 17-1 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 901 179 hsl 60 15 0 127 0 0 18-1 18-1 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 973 179 hsl 60 15 0 127 0 0 19-1 19-1 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
@@ -131,13 +130,11 @@
 #X obj 754 486 hsl 60 15 0 127 0 0 16-5 16-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 828 487 hsl 60 15 0 127 0 0 17-5 17-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 900 487 hsl 60 15 0 127 0 0 18-5 18-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
-#X obj 972 487 hsl 60 15 0 127 0 0 empty empty empty -2 -10 0 12 #dfdfdf #000000 #000000 0 1;
-#X obj 756 529 hsl 60 15 0 127 0 0 empty empty empty -2 -10 0 12 #dfdfdf #000000 #000000 0 1;
-#X text 852 502 sprd;
-#X text 926 502 dcy;
-#X obj 830 532 hsl 60 15 0 127 0 0 empty empty empty -2 -10 0 12 #dfdfdf #000000 #000000 0 1;
-#X obj 901 531 hsl 60 15 0 127 0 0 empty empty empty -2 -10 0 12 #dfdfdf #000000 #000000 0 1;
-#X obj 972 530 hsl 60 15 0 127 0 0 empty empty empty -2 -10 0 12 #dfdfdf #000000 #000000 0 1;
+#X obj 972 487 hsl 60 15 0 127 0 0 19-5 19-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
+#X obj 756 529 hsl 60 15 0 127 0 0 20-5 20-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
+#X obj 829 528 hsl 60 15 0 127 0 0 21-5 21-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
+#X obj 901 528 hsl 60 15 0 127 0 0 22-5 22-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
+#X obj 972 528 hsl 60 15 0 127 0 0 23-5 23-5 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 1098 486 hsl 60 15 0 127 0 0 16-6 16-6 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 1101 530 hsl 60 15 0 127 0 0 20-6 20-6 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
 #X obj 1175 530 hsl 60 15 0 127 0 0 21-6 21-6 empty -2 -10 0 12 #ffe3c6 #000000 #000000 0 1;
@@ -166,7 +163,6 @@
 #X text 1200 357 rotY;
 #X text 1274 357 rotX;
 #X text 1346 358 rotZ;
-#X text 780 501 amnt;
 #X text 1124 501 scale;
 #X text 851 660 sgmts;
 #X text 779 659 size;
@@ -259,7 +255,6 @@
 #X text 846 611 TRACK 7 IMAGE;
 #X text 840 150 TRACK 1 SPHERE;
 #X text 1200 611 TRACK 8 PIXELS;
-#X text 22 50 This Visual Synthesizer is made for the Akai APC 40 to create real-time audio-reactive visuals. Press 'Play' on your APC. This will start the GEM Window. You will see the GEM window pop up with all 8 tracks enabled. I like to go through and toggle all tracks off so as to start with a blank canvas There are 8 'tracks' or 'layers' in ESPER. Much like you would use the APC40 for Music production \, each track corresponds to one layer. The 'Track Select' buttons on the APC allows you to toggle through the effects knobs for each track. The activator buttons turn on and off each layer. The send knobs are for global and in some case webcam effects. Images are loaded from the "Images" directory https://github.com/aidanwobrien/ESPER, f 97;
 #X text 21 663 SPHERE;
 #X text 102 663 PARTICLES;
 #X text 198 662 WEBCAM;
@@ -278,5 +273,16 @@
 #X text 1184 705 rotY;
 #X text 1264 706 rotZ;
 #X obj 1182 202 tgl 10 0 2-dcy-dsp empty empty 0 -10 0 8 #e3c6ff #000000 #000000 0 1;
-#X connect 184 1 185 0;
-#X connect 193 0 184 0;
+#X obj 380 853 track9;
+#X text 780 501 size;
+#X text 852 502 scale;
+#X text 915 502 spread;
+#X text 976 501 weight;
+#X text 985 546 vrtx;
+#X text 772 547 num;
+#X text 912 544 rotY;
+#X text 842 544 rotX;
+#X obj 838 856 vu-meter;
+#X text 22 50 This Visual Synthesizer is made for the Akai APC 40 to create real-time audio-reactive visuals. Press 'Play' on your APC. This will start the GEM Window. You will see the GEM window pop up with all 8 tracks enabled. There are 8 'tracks' or 'layers' in ESPER. Much like you would use the APC40 for Music production \, each track corresponds to one layer. The 'Track Select' buttons on the APC allows you to toggle through the effects knobs for each track. The activator buttons turn on and off each layer. The send knobs are for global and in some case webcam effects. Images are loaded from the "Images" directory https://github.com/aidanwobrien/ESPER, f 97;
+#X connect 180 1 181 0;
+#X connect 189 0 180 0;

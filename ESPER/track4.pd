@@ -1,7 +1,7 @@
-#N canvas 0 0 1440 900 12;
+#N canvas 0 25 1440 847 12;
 #X obj 434 207 tgl 19 0 empty a-4 empty 0 -10 0 12 #ffc7c6 #000000 #000000 0 1;
 #X obj 509 238 tgl 19 0 empty empty empty 0 -10 0 12 #feffc6 #000000 #000000 0 1;
-#X obj 434 257 alpha;
+#X obj 412 272 alpha;
 #X floatatom 535 239 5 0 0 0 - - - 0;
 #X msg 332 970 draw line;
 #X obj 356 946 loadbang;
@@ -60,9 +60,14 @@
 #X obj 600 881 loadbang;
 #X msg 600 905 1;
 #X obj 607 860 / 10;
+#X obj 504 44 delay 10;
+#X msg 507 74 0;
+#X msg 567 73 1;
+#X obj 640 80 loadbang;
+#X obj 317 274 depth;
 #X connect 0 0 17 0;
 #X connect 1 0 2 0;
-#X connect 2 0 21 0;
+#X connect 2 0 65 0;
 #X connect 3 0 2 1;
 #X connect 4 0 43 0;
 #X connect 5 0 4 0;
@@ -125,3 +130,9 @@
 #X connect 58 0 59 0;
 #X connect 59 0 19 0;
 #X connect 60 0 43 2;
+#X connect 61 0 62 0;
+#X connect 62 0 0 0;
+#X connect 63 0 0 0;
+#X connect 64 0 63 0;
+#X connect 64 0 61 0;
+#X connect 65 0 21 0;
